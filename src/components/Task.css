@@ -1,0 +1,27 @@
+.task{
+    display:flex;
+    background-color: white;
+    padding:15px;
+    margin: 20px 0;
+    align-items: center;
+}
+.task>div{
+    width:100%;
+}
+.task>div>span{
+    color: rgb(110, 107, 107);
+}
+.task>button{
+    border-radius: 100%;
+    width:30px;
+    height:30px;
+    font-size: 1.6 rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+}
+.task>button:hover{
+    background-color: red;
+
+}
